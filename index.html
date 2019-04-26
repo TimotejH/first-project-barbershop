@@ -22,7 +22,7 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav ml-auto">
             <li class="nav-item">
                 <a class="nav-link" href="#">Our services</a>
             </li>
@@ -30,7 +30,7 @@
                 <a class="nav-link" href="#">Make an appointment</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">FAQ</a>
+                <a class="nav-link" href="#FAQ">FAQ</a>
             </li>
             <li class="nav-item">
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
@@ -115,16 +115,15 @@
 <h2 class="text-center">Make an appointment</h2>
 
 <br>
-
+<div class="row">
+    <div class="col-6">
 <form>
-    <div class="form-row">
         <div class="form-group col-md-6">
             <input type="text" class="form-control" id="inputname" placeholder="First and Last name">
         </div>
         <div class="form-group col-md-6">
             <input type="text" class="form-control" id="inputphonenumber" placeholder="Phone number">
         </div>
-    </div>
     <div class="form-group col-md-6">
         <input type="date" class="form-control" id="inputdate" placeholder="Date">
     </div>
@@ -140,7 +139,9 @@
         </div>
     </div>
 </form>
+    </div>
 
+    <div class="col-6">
 <table class="table table-bordered table-hover">
     <thead class="thead-light">
         <tr>
@@ -180,10 +181,12 @@
     </tbody>
     <caption>*we don't work on holidays</caption>
 </table>
+    </div>
+</div>
 
 <br>
 
-<h2 class="text-center">FAQ</h2>
+<h2 class="text-center" id="FAQ">FAQ</h2>
 
 <br>
 
